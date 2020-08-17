@@ -1,0 +1,212 @@
+.content{
+   max-width: 1160px;
+   padding: 0 30px;;
+   margin: 0 auto;
+}
+.wrapper-content{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    
+}
+.wrapper-content aside.profile{
+    width: 260px;
+}
+.wrapper-content aside.profile >img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -120px;
+    border: 5px solid #FFF;
+
+}
+.wrapper-content aside.profile h1 {
+    font-size: 21px;
+    color: #1F2226;
+    margin-top: 10px;
+    margin-bottom: 1px;
+
+}
+.wrapper-content aside.profile span {
+    font-size: 14px;
+    color: #53626C;
+}
+.wrapper-content aside.profile p {
+    font-size: 14px;
+    color: #1F2226;
+    margin-top:15px ;
+}
+
+.wrapper-content aside.profile ul {
+    margin-top: 20px;
+    list-style: none;
+    
+  
+}
+.wrapper-content aside.profile  ul.info li  {
+    font-size: 14px;
+    color: #657786;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.wrapper-content aside.profile  ul.info li:first-child{
+  margin: 0;
+}
+.wrapper-content aside.profile  ul.info li img{
+    width: 20px;
+    margin-right: 10px;
+
+}
+.wrapper-content aside.profile .widget{
+    margin-top: 20px;
+
+}
+.wrapper-content aside.profile .widget strong{
+    font-weight: normal;
+    color: #3BB9E3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.wrapper-content aside.profile .widget  strong img{
+    margin-right: 5px;
+}
+.wrapper-content aside.profile .followes ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.wrapper-content aside.profile .followes ul li{
+    width: 35px;
+    height: 35px;
+    background: #D0D5D9;
+    flex: 1 0 auto;
+    border-radius: 50%;
+
+    margin: 0 5px  5px 0;
+}
+
+.wrapper-content aside.profile .images ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.wrapper-content aside.profile .images ul li{
+    width: 60px;
+    height: 60px;
+    background: #D0D5D9;
+    flex: 1 0 auto;
+  
+    margin: 0 5px  5px 0;
+}
+
+.wrapper-content .timeline{
+    flex: 1;
+}
+.wrapper-content aside.widget{
+    width: 290px;
+    margin-top: -300px;
+    
+
+}
+.wrapper-content aside.widget .widget{
+    background: #FFF;
+    padding: 15px;
+}
+.wrapper-content aside.widget .widget .tilte{
+    display: flex;
+    align-items: baseline;
+   
+
+}
+.wrapper-content aside.widget .widget .title strong{
+    font-size: 18px;
+    color: #1F2226;
+    
+}
+.wrapper-content aside.widget .widget .title a{
+    color: #3BB9E3;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+}
+
+.wrapper-content aside.widget .widget .title a::before{
+    content: "";
+    width: 2px;
+   height: 2px;
+   border-radius: 50%;
+   background: #222;
+   margin-left: 5px;
+   margin-right: 5px;
+   position: absolute;
+   left: 3px;
+   top: 6px;
+  
+}
+.wrapper-content aside.widget .follow ul{
+    list-style: none;
+  margin-top: 10px;
+}
+
+.wrapper-content aside.widget .follow ul li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCD6DD;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.wrapper-content aside.widget .follow ul li:last-child{
+    margin-bottom: 0;
+    padding-bottom:0 ;
+    border: 0;
+}
+.wrapper-content aside.widget .follow ul li .profile{
+    display: flex;
+    align-items:center ;
+
+}
+.wrapper-content aside.widget .follow ul li .profile img{
+    width: 48px;
+    height: 48px;
+    margin-left: -23px;
+    
+}
+.wrapper-content aside.widget .follow ul li .profile .inf{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.wrapper-content aside.widget .follow ul li .profile .inf strong{
+    font-size: 14px;
+    color: #1F2226;
+}
+.wrapper-content aside.widget .follow ul li .profile .inf strong span{
+    font-weight:normal ;
+    color: #9A9A9A;
+}
+.wrapper-content aside.widget .follow ul li .profile .inf button{
+    height: 27px;
+    width: 90px;
+    margin-top:4px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font: bold;
+    font-size: 14px;
+    color: #3BB9E3;
+    border: 1px solid #3BB9E3;
+    border-radius: 16px;   
+}
+.wrapper-content aside.widget .follow ul li > a{
+    color: #CCD6DD;
+    text-decoration: none;
+   
+}

@@ -1,0 +1,81 @@
+.bar {
+    height: 59px;
+    background: #FFF;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.content{
+       max-width: 1170px;
+   padding: 0 30px;;
+   margin: 0 auto;
+}
+.bar .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:285px ;
+    height: 100%;
+}
+.bar .content ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+.bar .content ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    position: relative;
+}
+ .bar .content ul li.active ::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:#3BB9E3;
+
+}
+.bar .content ul li span {
+    color: #667589;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bar .content ul li strong {
+    color: #667589;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.bar .content ul li.active strong{
+    color: #3BB9E3;
+}
+.bar .content .actions button{
+   height: 34px;
+   width: 90px;
+
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 20px;
+
+
+   font: bold;
+   font-size: 14px;
+   color: #3BB9E3;
+   border:1px solid #3BB9E3;
+   border-radius: 16px;
+   
+
+}
+.bar .content .actions{
+    display: flex;
+}
+.actions img{
+width: 20px;   
+}

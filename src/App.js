@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Banner from './Componts/Banner'
+import BarraSuperior from './Componts/barra superior'
+import Header from'./Componts/Header';
+import Profile from './Componts/Profile';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+    <Header />
+   <Banner />
+   <BarraSuperior/>
+   <Profile/>
+
     </div>
   );
 }
